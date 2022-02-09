@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1-KZuSnFwMSd8QkOynuOGvDLIom3zQuMY
 """
 
-from google.colab import drive
-drive.mount('/content/drive/')
 
 """Analisando a dificuldade de um texto:
 - contar quantidade de sentenças
@@ -124,7 +122,7 @@ def legibilidade_do_texto(texto):
   # print(total_sentencas, 'Sentenças')
   # print(total_palavras, 'Palavras')
   # print(total_silabas, 'Silabas')
-  # print(score, 'Nível de dificuldade do texto')
+  print(score, 'Nível de dificuldade do texto')
   
   resultado_final(score)
   
